@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrea Silva | Dados, Finanças e Tecnologia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    nav {
+      background-color: #1e293b;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #38bdf8;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .banner {
+      background: url('capa2.jpg') no-repeat center center/cover;
+      height: 320px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      position: relative;
+    }
+    .foto-perfil {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #38bdf8;
+      position: absolute;
+      bottom: -80px;
+      background: #0f172a;
+    }
+    .nome-perfil {
+      position: absolute;
+      bottom: -120px;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #f8fafc;
+      background-color: #0f172a;
+      padding: 0.3rem 1rem;
+      border-radius: 10px;
+    }
+    header {
+      text-align: center;
+      padding-top: 100px;
+      background-color: #0f172a;
+    }
+    .container {
+      max-width: 1080px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    h2 {
+      color: #38bdf8;
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+    }
+    .card {
+      background: #1e293b;
+      border-left: 5px solid #38bdf8;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    .card h3 {
+      color: #60a5fa;
+      margin-bottom: 0.5rem;
+    }
+    .card a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .tool {
+      background: #1e293b;
+      padding: 0.8rem 1.2rem;
+      border-radius: 10px;
+      color: #38bdf8;
+      font-weight: bold;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    .contato-icons a {
+      margin-right: 16px;
+      color: #38bdf8;
+      font-size: 28px;
+    }
+    .contato-icons span {
+      font-size: 16px;
+      margin-left: 8px;
+    }
+    .curriculo-link {
+      font-size: 14px;
+      font-weight: 500;
+      vertical-align: middle;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem 1rem;
+      color: #94a3b8;
+    }
+  </style>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#ferramentas">Ferramentas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="banner">
+    <img src="andrea jocelina_finacas_analise de risco e credito_ analista de dados_crm_cadastro.jpeg" alt="Foto de Andrea Silva" class="foto-perfil">
+    <div class="nome-perfil">Andrea Silva</div>
+  </div>
+<br>
+<br>
+
+  <header>
+    <p id="sobre">Especialista em Dados, Finanças e Tecnologia. Com experiência em análise de risco, controle financeiro, construção de dashboards e automação de relatórios.</p>
+  </header>
+
+  <main class="container">
+    <section id="projetos">
+      <h2>📊 Projetos em Destaque</h2>
+      <div class="card">
+        <h3>Forecast Financeiro com Python</h3>
+        <p>Modelo de previsão com Holt-Winters, análise temporal e visualização gráfica automatizada.</p>
+        <a href="https://github.com/AndreaSilva2025/Forecast_Financeiro">Ver Projeto</a>
+      </div>
+      <div class="card">
+        <h3>Simulação de Monte Carlo</h3>
+        <p>Simulação estatística de incertezas e riscos com visual moderno em HTML/CSS/JS.</p>
+        <a href="https://andreasilva2025.github.io/MonteCarlos/">Ver Projeto</a>
+      </div>
+      <div class="card">
+        <h3>Dashboard Bancos (Power BI)</h3>
+        <p>Análise de desempenho dos 5 maiores bancos do Brasil com foco em indicadores estratégicos.</p>
+        <a href="https://app.powerbi.com/view?r=eyJrIjoiOWUwNDAxNjEtYzE1ZS00ZTY1LWE4MDctNjZiMDRjNDllYjQ3IiwidCI6IjI5ZTg3NWZjLTM5MzQtNDE2MS1hMGRhLWYyMmRjZGU1Mzk0YyJ9">Ver Dashboard</a>
+      </div>
+    </section>
+
+    <section id="ferramentas">
+      <h2>🛠️ Ferramentas e Tecnologias</h2>
+      <div class="tools">
+        <div class="tool">Power BI</div>
+        <div class="tool">SQL</div>
+        <div class="tool">Python</div>
+        <div class="tool">Excel + VBA</div>
+        <div class="tool">HTML/CSS/JS</div>
+        <div class="tool">Controle Financeiro</div>
+        <div class="tool">Modelagem de Crédito</div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>📩 Contato</h2>
+      <p>Você pode me encontrar nas redes abaixo ou baixar meu currículo:</p>
+      <div class="contato-icons">
+        <a href="https://www.linkedin.com/in/andrea-jocelina-cea-/" target="_blank"><i data-lucide="linkedin"></i></a>
+        <a href="https://github.com/AndreaSilva2025" target="_blank"><i data-lucide="github"></i></a>
+        <a href="mailto:andrea.admfinancas@gmail.com "><i data-lucide="mail"></i></a>
+        <a href="Andrea J Silva.pdf" class="curriculo-link"><i data-lucide="file-text"></i> <span>Currículo PDF</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Criado por Andrea Silva | Portfólio Profissional 2025
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
+
+
+
